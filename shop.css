@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    transition:all .3s cubic-bezier(.16,.8,.62,1.52);
+    text-transform: capitalize;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+.btn {
+    display: inline-block;
+    margin-top: 0rem;
+    padding: 6px 16px;
+    border-radius: 5rem;
+    background: rgb(68 68 68);
+    color: rgb(255 255 255);
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+    font-size: 1.7rem;
+}
+.heading{
+    font-size: 3rem;
+    color:#666;
+}
+
+.heading span{
+    color:var(--red);
+}
+
+.protect .heading{
+    text-align: center;
+    padding:1rem;
+}
+
+.protect .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.protect .box-container .box{
+    background:#fff;
+    border:.1rem solid rgba(0,0,0,.1);
+    padding:2rem;
+    margin:2rem;
+    width:27rem;
+    border-radius: .5rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    text-align: center;
+}
+
+.protect .box-container .box img{
+    height: 17rem;
+    width:17rem;
+}
+
+.protect .box-container .box h3{
+    font-size: 2.5rem;
+    color:#666;
+    padding:1rem 0;
+}
+
+.protect .box-container .box p{
+    font-size: 1.4rem;
+    color:#999;
+    padding:.5rem;
+}
+
+.protect .box-container .box:hover{
+    transform:translateY(-1rem);
+}
+
+
+.contact-footer{
+    padding: 2rem, 0;
+    background: #000;
+  }
+  .contact-footer h3{
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .social-links{
+    display: flex;
+    justify-content: center;
+    
+  }
+  .social-links a{
+    text-decoration: none;
+    width: 50px;
+    font-size: 2rem;
+    height: 33px;
+    color: #fff;
+    transition: all 0.4s ease;
+  }
+  .social-links a:hover{
+    color: #f44336;
+    border-color: #f44336;
+  }
+  
